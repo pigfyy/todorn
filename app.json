@@ -7,7 +7,24 @@
     "plugins": [
       "expo-router"
     ],
-    "name": "todoapp",
-    "slug": "todoapp"
+    "name": "todo",
+    "slug": "todo",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "6b02ba68-2a2e-48f7-93c1-30bafccaeb25"
+      }
+    },
+    "owner": "pigfyy",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6b02ba68-2a2e-48f7-93c1-30bafccaeb25"
+    },
+    "android": {},
+    "ios": {}
   }
 }
